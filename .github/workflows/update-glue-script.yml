@@ -21,4 +21,4 @@ jobs:
         aws-region: ${{ secrets.AWS_REGION }}
     
     - name: Sync Glue scripts to S3
-      run: aws s3 .github/workflows/ s3://data-ingestion-bucket-trubai-dev/glue_cicd/
+      run: aws s3 .github/workflows s3://data-ingestion-bucket-trubai-dev/glue_cicd/
