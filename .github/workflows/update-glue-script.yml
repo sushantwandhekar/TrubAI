@@ -3,7 +3,7 @@ name: Update Glue Scripts
 on:
   push:
     branches:
-      - development
+      - main
 
 jobs:
   update-glue-scripts:
